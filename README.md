@@ -25,7 +25,21 @@ scrapy startproject project_name
 scrapy genspider spider_name url  //  example:  scrapy genspider spider succubuspublishing.com/downloads
 ```
 
+## Build a Spider
+
+### In your spider.py file:
+*. Response Object:
+* response.url
+* response.css
+* response.xpath
+
 ## How to run a spider
+
+1. For testing:
 ``` 
 scrapy crawl spider_name
+```
+2. To output to file:
+```
+scrapy crawl spider_name -o filename.json
 ```
