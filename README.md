@@ -85,6 +85,6 @@ yield {
 scrapy crawl spider_name
 ```
 2. To output to file:
-```python
+```
 scrapy crawl spider_name -o filename.json
 ```
